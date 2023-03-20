@@ -528,4 +528,39 @@
         -webkit-box-shadow: none;
         box-shadow: none;
     }
+    .message-app {
+        display: flex;
+        flex-direction: column;
+        background-color: #6c6c6c;
+    }
+    [data-region='message-drawer'] [data-region='body-container'] .btn-link {
+        background-color: #444;
+        border-radius: 0;
+        color: inherit!important;
+    }
+    #yui_3_17_2_1_1679319992278_54 {
+        color: white!important;
+    }
+    .list-group-item-action:hover,
+    .list-group-item-action:focus {
+        z-index: 1;
+        color: #ffffff;
+        text-decoration: none;
+        background-color: #6a6a6a;
+    }
+    input.form-control border-left-0 {
+        color: white!important;
+    }
+    .pagelayout-mydashboard #region-main {
+        border: 0;
+        padding: 0px 0px 0px;
+        background-color: transparent;
+        margin-top: -1px;
+    }
+    .border-right {
+        border-right: 1px solid #383838!important;
+    }
+    .bg-light {
+        background-color: #4e4e4e!important;
+    }
 }
