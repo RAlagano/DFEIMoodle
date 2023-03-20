@@ -1,2 +1,2 @@
 # DFEIMoodle
-The home of the DFEI Moodle Dark Theme
+The home of the DFEI Moodle's Dark Theme
