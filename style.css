@@ -3,415 +3,459 @@
 @namespace      https://github.com/RAlagano/DFEIMoodle/blob/main/style.css
 @version        1.0.0
 @description    A more night friendly theme for the college's moodle.
-@author         Richard Alagano
+@author         R.A
 ==/UserStyle== */
 @-moz-document url-prefix("https://dfei.etbonline.ie/") {
-	#above-header {
-		border-bottom: 1px solid #fff0;
-		background-color: #000000;
-	}
-	html, body {
-		margin: 0;
-		padding: 0;
-		background-color: #3a3a3a;
-		-webkit-background-size: 100% auto;
-		background-size: 100% auto;
-		color: #fff;
-		font-family: Open Sans, sans-serif;
-		font-size: 95%;
-		font-weight: 400!important;
-		line-height: normal;
-	}
-	#site-news-forum h2 {
-		font-family: Roboto Slab, sans-serif!important;
-		font-weight: 400!important;
-		color: #fff;
-		font-size: 24px;
-		border-bottom: 0 solid #eee;
-		margin-bottom: 20px;
-	}
-	#region-main {
-		background-color: #303030;
-		border: none;
-	}
-	.forumpost {
-		background-color: #3a3a3a;
-	}
-	.border {
-		border: 1px solid #3a3a3a!important;
-	}
-	#sitetitle, #sitetitle a, #sitetitle p, #sitetitle h1 {
-		color: #0027c0!important;
-		font-size: 54px;
-		font-family: Audiowide, sans-serif;
-		font-weight: 500!important;
-		line-height: 120%;
-		max-width: 50%;
-		min-width: 50%;
-		overflow: visible;
-		padding: 0 0 15px 0;
-		position: relative;
-		text-overflow: ellipsis;
-		width: auto;
-		white-space: nowrap;
-		margin: 0;
-		vertical-align: middle;
-	}
-	#ticker-wrap {
-		position: relative;
-		margin-bottom: 15px;
-		margin-top: 15px;
-		background: #6e6e6e;
-		line-height: 40px;
-	}
-	.block .content a, .block .content li a, .block .content td a {
-		color: #00cbb8;
-	}
-	a, a:visited, .tabtree .tabrow0 li a {
-		color: #00cbb8;
-		text-decoration: none;
-	}
-	.btn-link {
-		background-color: transparent;
-		color: #00cbb8!important;
-		-webkit-box-shadow: none;
-		box-shadow: none;
-	}
-	.forumpost .header {
-		padding: 10px 0 10px 0;
-		background-color: #2f2f2f;
-		border-radius: 0 0 0 0;
-	}
-	h1, h2, h3, h4, h5, h6 {
-		margin: 0 0 10px;
-		color: #fff;
-		font-family: Roboto Slab, sans-serif;
-		font-weight: 400!important;
-	}
-	.block .title h2 {
-		color: #0027c0;
-		font-size: 36px;
-		font-weight: 400!important;
-		margin-bottom: 0;
-		text-shadow: none;
-		text-transform: none;
-	}
-	.block .header, #dockeditempanel .dockeditempanel_hd {
-		background: #292929;
-	}
+    #above-header {
+        border-bottom: 1px solid #fff0;
+        background-color: #000000;
+    }
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: #3a3a3a;
+        -webkit-background-size: 100% auto;
+        background-size: 100% auto;
+        color: #fff;
+        font-family: Open Sans, sans-serif;
+        font-size: 95%;
+        font-weight: 400!important;
+        line-height: normal;
+    }
+    #site-news-forum h2 {
+        font-family: Roboto Slab, sans-serif!important;
+        font-weight: 400!important;
+        color: #fff;
+        font-size: 24px;
+        border-bottom: 0 solid #eee;
+        margin-bottom: 20px;
+    }
+    #region-main {
+        background-color: #303030;
+        border: none;
+    }
+    .forumpost {
+        background-color: #3a3a3a;
+    }
+    .border {
+        border: 1px solid #3a3a3a!important;
+    }
+    #sitetitle,
+    #sitetitle a,
+    #sitetitle p,
+    #sitetitle h1 {
+        color: #0027c0!important;
+        font-size: 54px;
+        font-family: Audiowide, sans-serif;
+        font-weight: 500!important;
+        line-height: 120%;
+        max-width: 50%;
+        min-width: 50%;
+        overflow: visible;
+        padding: 0 0 15px 0;
+        position: relative;
+        text-overflow: ellipsis;
+        width: auto;
+        white-space: nowrap;
+        margin: 0;
+        vertical-align: middle;
+    }
+    #ticker-wrap {
+        position: relative;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        background: #6e6e6e;
+        line-height: 40px;
+    }
+    .block .content a,
+    .block .content li a,
+    .block .content td a {
+        color: #00cbb8;
+    }
+    a,
+    a:visited,
+    .tabtree .tabrow0 li a {
+        color: #00cbb8;
+        text-decoration: none;
+    }
+    .btn-link {
+        background-color: transparent;
+        color: #00cbb8!important;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+    .forumpost .header {
+        padding: 10px 0 10px 0;
+        background-color: #2f2f2f;
+        border-radius: 0 0 0 0;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin: 0 0 10px;
+        color: #fff;
+        font-family: Roboto Slab, sans-serif;
+        font-weight: 400!important;
+    }
+    .block .title h2 {
+        color: #0027c0;
+        font-size: 36px;
+        font-weight: 400!important;
+        margin-bottom: 0;
+        text-shadow: none;
+        text-transform: none;
+    }
+    .block .header,
+    #dockeditempanel .dockeditempanel_hd {
+        background: #292929;
+    }
 
-	div[class^="block-side-"] .card-body, .block {
-		background: #4b4b4b!important;
-		border: none!important;
-		-webkit-box-shadow: none!important;
-		box-shadow: none!important;
-		border-radius: 0!important;
-		margin-bottom: 2px;
-	}
-	.block > .content, #dockeditempanel .dockeditempanel_bd {
-		border-width: 0 0 0 0;
-		border-color: #4b4b4b;
-		border-style: none;
-		padding: 10px 5px;
-		font-weight: 400;
-		background: #4b4b4b;
-		border-radius: 0 0 0 0;
-		margin-left: 5px;
-	}
-	.block_calendar_month table.minicalendar.calendartable th {
-		border: none!important;
-		border-radius: 0;
-		background-color: #222222;
-	}
-	.calendar_event_site {
-		background-color: #858585;
-	}
-	.block .minicalendar td.weekend {
-		color: #a2a2a2;
-	}
-	#ticker-wrap #controls .fa {
-		color: #fff;
-		cursor: pointer;
-		margin-top: 10px;
-	}
-	#ticker-announce {
-		background-color: #0027c0;
-		padding: 0 15px;
-		color: #eee;
-		margin-right: 15px;
-		margin-left: -15px;
-		text-transform: uppercase;
-		font-weight: 600;
-	}
-	#adaptable-page-header-wrapper #main-navbar {
-		background-color: #141414;
-		border-bottom: 3px solid #00b5a4;
-		clear: both;
-		z-index: 100;
-	}
-	#adaptable-page-header-wrapper #main-navbar .navbar-nav > li > a, #adaptable-page-header-wrapper #main-navbar .navbar-nav > li > div.nav-link {
-		color: #fff;
-		line-height: 40px;
-		padding: 2px 20px 2px 20px;
-		text-decoration: none;
-		text-shadow: none;
-		font-weight: 400;
-		font-size: 14px;
-		text-transform: none;
-		border-right: 0;
-		background-color: none;
-		-webkit-transition: all .2s;
-		-moz-transition: all .2s;
-		-ms-transition: all .2s;
-		-o-transition: all .2s;
-		transition: all .2s;
-	}
+    div[class^="block-side-"] .card-body,
+    .block {
+        background: #4b4b4b!important;
+        border: none!important;
+        -webkit-box-shadow: none!important;
+        box-shadow: none!important;
+        border-radius: 0!important;
+        margin-bottom: 2px;
+    }
+    .block > .content,
+    #dockeditempanel .dockeditempanel_bd {
+        border-width: 0 0 0 0;
+        border-color: #4b4b4b;
+        border-style: none;
+        padding: 10px 5px;
+        font-weight: 400;
+        background: #4b4b4b;
+        border-radius: 0 0 0 0;
+        margin-left: 5px;
+    }
+    .block_calendar_month table.minicalendar.calendartable th {
+        border: none!important;
+        border-radius: 0;
+        background-color: #222222;
+    }
+    .calendar_event_site {
+        background-color: #858585;
+    }
+    .block .minicalendar td.weekend {
+        color: #a2a2a2;
+    }
+    #ticker-wrap #controls .fa {
+        color: #fff;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+    #ticker-announce {
+        background-color: #0027c0;
+        padding: 0 15px;
+        color: #eee;
+        margin-right: 15px;
+        margin-left: -15px;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+    #adaptable-page-header-wrapper #main-navbar {
+        background-color: #141414;
+        border-bottom: 3px solid #00b5a4;
+        clear: both;
+        z-index: 100;
+    }
+    #adaptable-page-header-wrapper #main-navbar .navbar-nav > li > a,
+    #adaptable-page-header-wrapper #main-navbar .navbar-nav > li > div.nav-link {
+        color: #fff;
+        line-height: 40px;
+        padding: 2px 20px 2px 20px;
+        text-decoration: none;
+        text-shadow: none;
+        font-weight: 400;
+        font-size: 14px;
+        text-transform: none;
+        border-right: 0;
+        background-color: none;
+        -webkit-transition: all .2s;
+        -moz-transition: all .2s;
+        -ms-transition: all .2s;
+        -o-transition: all .2s;
+        transition: all .2s;
+    }
 
-	.text-muted {
-		color: #ffffff!important;
-	}
-	.block .block-cards .course-info-container {
-		padding: 0.8rem;
-		border: none;
-		background-color: #2f2f2f;
-	}
-	.coursemenubtn .fa {
-		color: #fff!important;
-	}
-	#edittingbutton .btn, #edittingbutton input[type="submit"] {
-		background-image: none;
-		background-color: #007305;
-		border-radius: 5px;
-		-webkit-box-shadow: 0 0 0 0 rgb(0 0 0 / 50%) inset;
-		box-shadow: 0 0 0 0 rgb(0 0 0 / 50%) inset;
-		color: #fff!important;
-		height: 24px;
-		line-height: 14px;
-		padding: 4px 6px;
-		border: none;
-	}
-	.btn-outline-secondary {
-		background-color: #007305;
-	}
-	.page-item.disabled .page-link {
-		color: #bcbcbc;
-		pointer-events: none;
-		cursor: auto;
-		background-color: #434343;
-		border-color: #434343;
-	}
-	.page-link {
-		position: relative;
-		display: block;
-		padding: 0.5rem 0.75rem;
-		margin-left: -1px;
-		line-height: 1.25;
-		color: #0f6fc5;
-		background-color: #434343;
-		border: 1px solid #434343;
-	}
-	.calendar_event_course {
-		background-color: #b65e32;
-	}
-	.bg-white {
-		background-color: #2e2e2e!important;
-	}
-	.card {
-		position: relative;
-		display: flex;
-		flex-direction: column;
-		min-width: 0;
-		word-wrap: break-word;
-		background-color: rgba(0, 0, 0, 0);
-		-webkit-background-clip: border-box;
-		background-clip: border-box;
-		border: 1px solid rgba(0, 0, 0, 0);
-	}
-	.block_navigation .block_tree .tree_item.branch {
-		color: #00cbb8!important;
-	}
-	.pl-0 {
-		padding-left: 0!important;
-		background-color: #4b4b4b;
-	}
-	.notifysuccess {
-		color: #068b00;
-	}
+    .text-muted {
+        color: #ffffff!important;
+    }
+    .block .block-cards .course-info-container {
+        padding: 0.8rem;
+        border: none;
+        background-color: #2f2f2f;
+    }
+    .coursemenubtn .fa {
+        color: #fff!important;
+    }
+    #edittingbutton .btn,
+    #edittingbutton input[type="submit"] {
+        background-image: none;
+        background-color: #007305;
+        border-radius: 5px;
+        -webkit-box-shadow: 0 0 0 0 rgb(0 0 0 / 50%) inset;
+        box-shadow: 0 0 0 0 rgb(0 0 0 / 50%) inset;
+        color: #fff!important;
+        height: 24px;
+        line-height: 14px;
+        padding: 4px 6px;
+        border: none;
+    }
+    .btn-outline-secondary {
+        background-color: #007305;
+    }
+    .page-item.disabled .page-link {
+        color: #bcbcbc;
+        pointer-events: none;
+        cursor: auto;
+        background-color: #434343;
+        border-color: #434343;
+    }
+    .page-link {
+        position: relative;
+        display: block;
+        padding: 0.5rem 0.75rem;
+        margin-left: -1px;
+        line-height: 1.25;
+        color: #0f6fc5;
+        background-color: #434343;
+        border: 1px solid #434343;
+    }
+    .calendar_event_course {
+        background-color: #b65e32;
+    }
+    .bg-white {
+        background-color: #2e2e2e!important;
+    }
+    .card {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: rgba(0, 0, 0, 0);
+        -webkit-background-clip: border-box;
+        background-clip: border-box;
+        border: 1px solid rgba(0, 0, 0, 0);
+    }
+    .block_navigation .block_tree .tree_item.branch {
+        color: #00cbb8!important;
+    }
+    .pl-0 {
+        padding-left: 0!important;
+        background-color: #4b4b4b;
+    }
+    .notifysuccess {
+        color: #068b00;
+    }
 
-	.block_microsoft .block_microsoft_forms {
-		background-image: url("https://cdn.discordapp.com/attachments/1040726712352247888/1040726829662748703/formscolor.png")!important;
-	}
-	.block_microsoft .block_microsoft_delve {
-		background-image: url("https://cdn.discordapp.com/attachments/1040726712352247888/1040726829268467812/delvecolor.png")!important;
-	}
-	#adaptable-page-header-wrapper #main-navbar ul.navbar-nav > li > a.nav-link:hover, #adaptable-page-header-wrapper #main-navbar li div.nav-link:hover, #adaptable-page-header-wrapper #main-navbar li #edittingbutton input[type="submit"]:hover {
-		background-color: #2d2d2d;
-		text-decoration: none;
-	}
-	.block .block-cards a.coursename, .block .block-cards span.categoryname, .block .block-cards .btn-link {
-		color: #fff;
-	}
-	img#logo {
-		content: url("https://cdn.discordapp.com/attachments/1040726712352247888/1040731277126533210/DFEi_logo.png")!important;
-	}
-	.breadcrumb {
-		background: none!important;
-		background-color: #262626!important;
-	}
-	.breadcrumb li.lastli span {
-		color: #00cbb8;
-	}
-	.path-course-view .completionprogress {
-		color: #fff;
-	}
-	.sectionname {
-		background-color: #373737!important;
-		color: #007cff!important;
-		border-bottom: none #f3f3f3 0;
-	}
-	#page .course-content ul li.section.main {
-		background-color: #414141;
-		border: 1px solid #414141;
-	}
-	.section li.modtype_forum div.activity-wrapper {
-		-webkit-box-shadow: -3px 0 0 0 #909;
-		box-shadow: -3px 0 0 0 #909;
-		border-bottom: 2px dashed #262626;
-		background-color: #414141;
-	}
-	.section li.modtype_assign div.activity-wrapper {
-		-webkit-box-shadow: -3px 0 0 0 #06c;
-		box-shadow: -3px 0 0 0 #06c;
-		border-bottom: 2px dashed #262626;
-		background-color: #414141;
-	}
-	.section .activity .activityinstance > a {
-		color: #9accff;
-	}
-	.generaltable {
-		color: #ffffff!important;
-	}
-	.activity_footer .text, .section_footer .text {
-		display: table-cell;
-		width: 10007px;
-		vertical-align: top;
-		padding-top: 9px;
-		color: #ffffff;
-	}
-	th#cell:hover {
-		color: #ffffff;
-	}
-	.path-mod-assign td.submissionnotgraded, .path-mod-assign div.submissionnotgraded {
-		color: #fff;
-		background-color: #515151;
-	}
-	.generaltable th, .generaltable td {
-		border-top: 2px solid #686868;
-	}
-	.activity_footer, .section_footer {
-		margin-top: 2em;
-		padding: 1em 0;
-		border-top: 2px solid #686868;
-		border-bottom: 2px solid #686868;
-		clear: both;
-		display: block;
-	}
-	.previous_activity .nav_icon, .previous_section .nav_icon {
-		margin-right: 0.3em;
-		border-right: 2px solid #686868;
-	}
-	.generaltable tbody tr:hover {
-		color: #ffffff;
-		background-color: rgba(0, 0, 0, 0);
-	}
-	.path-mod-assign td.submissionstatussubmitted, .path-mod-assign div.submissionstatussubmitted, .path-mod-assign a:link.submissionstatussubmitted {
-		color: #fff;
-		background-color: #5aac93;
-	}
-	.path-mod-assign td.earlysubmission, .path-mod-assign div.earlysubmission {
-		color: #fff;
-		background-color: #5aac93;
-	}
-	.custom-select {
-		display: inline-block;
-		width: 100%;
-		height: calc(1.5em + 0.75rem + 2px);
-		padding: 0.375rem 1.75rem 0.375rem 0.75rem;
-		font-size: .9375rem;
-		font-weight: 400;
-		line-height: 1.5;
-		color: #ffffff;
-		vertical-align: middle;
-		background: #ffffff url("data:image/svg+xml,%3csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'4\' height=\'5\' viewBox=\'0 0 4 5\'%3e%3cpath fill=\'%23343a40\' d=\'M2 0L0 2h4zm0 5L0 3h4z\'/%3e%3c/svg%3e") no-repeat right .75rem center/8px 10px;
-		background-color: #5e5e5e;
-		border: 1px solid #54585e;
-		border-radius: 0;
-		-webkit-appearance: none;
-		-moz-appearance: none;
-		appearance: none;
-	}
-	#adaptable-page-header-wrapper #main-navbar li ul li a, #adaptable-page-header-wrapper #main-navbar li .action-menu-trigger .dropdown-item {
-		color: #59a9ff!important;
-	}
-	#adaptable-page-header-wrapper #main-navbar li ul li a:hover, #adaptable-page-header-wrapper #main-navbar li .action-menu-trigger .dropdown-item:hover {
-		color: #488ad0!important;
-	}
-	.dropdown-menu {
-		position: absolute;
-		top: 100%;
-		left: 0;
-		z-index: 1000;
-		display: none;
-		float: left;
-		min-width: 10rem;
-		padding: 0.5rem 0;
-		margin: 0.125rem 0 0;
-		font-size: .9375rem;
-		color: #212529;
-		text-align: left;
-		list-style: none;
-		background-color: #252525;
-		-webkit-background-clip: padding-box;
-		background-clip: padding-box;
-		border: 1px solid rgba(0, 0, 0, .15);
-	}
-	#adaptable-page-header-wrapper #main-navbar li ul li a:hover, #adaptable-page-header-wrapper #main-navbar li .action-menu-trigger .dropdown-item:hover {
-		background-color: #575757;
-		color: #4288d2;
-	}
-	.generaltable thead th {
-		vertical-align: bottom;
-		border-bottom: 2px solid #686868;
-	}
-	.overlay-icon-container {
-		background-color: rgba(255, 255, 255, .6);
-	}
-	.modal-dialog .modal-content {
-		background-color: #2f2f2f!important;
-	}
+    .block_microsoft .block_microsoft_forms {
+        background-image: url("https://cdn.discordapp.com/attachments/1040726712352247888/1040726829662748703/formscolor.png")!important;
+    }
+    .block_microsoft .block_microsoft_delve {
+        background-image: url("https://cdn.discordapp.com/attachments/1040726712352247888/1040726829268467812/delvecolor.png")!important;
+    }
+    #adaptable-page-header-wrapper #main-navbar ul.navbar-nav > li > a.nav-link:hover,
+    #adaptable-page-header-wrapper #main-navbar li div.nav-link:hover,
+    #adaptable-page-header-wrapper #main-navbar li #edittingbutton input[type="submit"]:hover {
+        background-color: #2d2d2d;
+        text-decoration: none;
+    }
+    .block .block-cards a.coursename,
+    .block .block-cards span.categoryname,
+    .block .block-cards .btn-link {
+        color: #fff;
+    }
+    img#logo {
+        content: url("https://cdn.discordapp.com/attachments/1040726712352247888/1040731277126533210/DFEi_logo.png")!important;
+    }
+    .breadcrumb {
+        background: none!important;
+        background-color: #262626!important;
+    }
+    .breadcrumb li.lastli span {
+        color: #00cbb8;
+    }
+    .path-course-view .completionprogress {
+        color: #fff;
+    }
+    .sectionname {
+        background-color: #373737!important;
+        color: #007cff!important;
+        border-bottom: none #f3f3f3 0;
+    }
+    #page .course-content ul li.section.main {
+        background-color: #414141;
+        border: 1px solid #414141;
+    }
+    .section li.modtype_forum div.activity-wrapper {
+        -webkit-box-shadow: -3px 0 0 0 #909;
+        box-shadow: -3px 0 0 0 #909;
+        border-bottom: 2px dashed #262626;
+        background-color: #414141;
+    }
+    .section li.modtype_assign div.activity-wrapper {
+        -webkit-box-shadow: -3px 0 0 0 #06c;
+        box-shadow: -3px 0 0 0 #06c;
+        border-bottom: 2px dashed #262626;
+        background-color: #414141;
+    }
+    .section .activity .activityinstance > a {
+        color: #9accff;
+    }
+    .generaltable {
+        color: #ffffff!important;
+    }
+    .activity_footer .text,
+    .section_footer .text {
+        display: table-cell;
+        width: 10007px;
+        vertical-align: top;
+        padding-top: 9px;
+        color: #ffffff;
+    }
+    th#cell:hover {
+        color: #ffffff;
+    }
+    .path-mod-assign td.submissionnotgraded,
+    .path-mod-assign div.submissionnotgraded {
+        color: #fff;
+        background-color: #515151;
+    }
+    .generaltable th,
+    .generaltable td {
+        border-top: 2px solid #686868;
+    }
+    .activity_footer,
+    .section_footer {
+        margin-top: 2em;
+        padding: 1em 0;
+        border-top: 2px solid #686868;
+        border-bottom: 2px solid #686868;
+        clear: both;
+        display: block;
+    }
+    .previous_activity .nav_icon,
+    .previous_section .nav_icon {
+        margin-right: 0.3em;
+        border-right: 2px solid #686868;
+    }
+    .generaltable tbody tr:hover {
+        color: #ffffff;
+        background-color: rgba(0, 0, 0, 0);
+    }
+    .path-mod-assign td.submissionstatussubmitted,
+    .path-mod-assign div.submissionstatussubmitted,
+    .path-mod-assign a:link.submissionstatussubmitted {
+        color: #fff;
+        background-color: #5aac93;
+    }
+    .path-mod-assign td.earlysubmission,
+    .path-mod-assign div.earlysubmission {
+        color: #fff;
+        background-color: #5aac93;
+    }
+    .custom-select {
+        display: inline-block;
+        width: 100%;
+        height: calc(1.5em + 0.75rem + 2px);
+        padding: 0.375rem 1.75rem 0.375rem 0.75rem;
+        font-size: .9375rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #ffffff;
+        vertical-align: middle;
+        background: #ffffff url("data:image/svg+xml,%3csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'4\' height=\'5\' viewBox=\'0 0 4 5\'%3e%3cpath fill=\'%23343a40\' d=\'M2 0L0 2h4zm0 5L0 3h4z\'/%3e%3c/svg%3e") no-repeat right .75rem center/8px 10px;
+        background-color: #5e5e5e;
+        border: 1px solid #54585e;
+        border-radius: 0;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+    }
+    #adaptable-page-header-wrapper #main-navbar li ul li a,
+    #adaptable-page-header-wrapper #main-navbar li .action-menu-trigger .dropdown-item {
+        color: #59a9ff!important;
+    }
+    #adaptable-page-header-wrapper #main-navbar li ul li a:hover,
+    #adaptable-page-header-wrapper #main-navbar li .action-menu-trigger .dropdown-item:hover {
+        color: #488ad0!important;
+    }
+    .dropdown-menu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        z-index: 1000;
+        display: none;
+        float: left;
+        min-width: 10rem;
+        padding: 0.5rem 0;
+        margin: 0.125rem 0 0;
+        font-size: .9375rem;
+        color: #212529;
+        text-align: left;
+        list-style: none;
+        background-color: #252525;
+        -webkit-background-clip: padding-box;
+        background-clip: padding-box;
+        border: 1px solid rgba(0, 0, 0, .15);
+    }
+    #adaptable-page-header-wrapper #main-navbar li ul li a:hover,
+    #adaptable-page-header-wrapper #main-navbar li .action-menu-trigger .dropdown-item:hover {
+        background-color: #575757;
+        color: #4288d2;
+    }
+    .generaltable thead th {
+        vertical-align: bottom;
+        border-bottom: 2px solid #686868;
+    }
+    .overlay-icon-container {
+        background-color: rgba(255, 255, 255, .6);
+    }
+    .modal-dialog .modal-content {
+        background-color: #2f2f2f!important;
+    }
 
-	.form-control {
-		color: #ffffff!important;
-		background-color: #292929!important;
-		border: 1px solid #000000!important;
-	}
-	.table {
-		color: #ffffff;
-	}
-	#adaptable-page-header-wrapper #above-header li a.dropdown-item, #adaptable-page-header-wrapper #above-header li ul li a {
-		color: #0083c0;
-	}
-	#block-region-side-post.sidebarshown {
-        	border-left: 2px solid #343434;
-	}
-	#showsidebaricon {
-		background-color: #343434;
-        	border-bottom: 4px solid #343434;
-        	border-left: 4px solid #343434;
-        	border-top: 4px solid #343434;
-        	color: #ffffff;
-	}
-	#block-region-side-post {
-		background-color: #343434;
-	}
+    .form-control {
+        color: #ffffff!important;
+        background-color: #292929!important;
+        border: 1px solid #000000!important;
+    }
+    .table {
+        color: #ffffff;
+    }
+    #adaptable-page-header-wrapper #above-header li a.dropdown-item,
+    #adaptable-page-header-wrapper #above-header li ul li a {
+        color: #0083c0;
+    }
+    #block-region-side-post.sidebarshown {
+        border-left: 2px solid #343434;
+    }
+    #showsidebaricon {
+        background-color: #343434;
+        border-bottom: 4px solid #343434;
+        border-left: 4px solid #343434;
+        border-top: 4px solid #343434;
+        color: #ffffff;
+    }
+    #block-region-side-post {
+        background-color: #343434;
+    }
+    #page .course-content ul li.section.main.current {
+        /*background: #d9edf7;*/
+        background-color: #616161;
+    }
+    .section li.modtype_quiz div.activity-wrapper {
+        -webkit-box-shadow: -3px 0 0 0 #f33;
+        box-shadow: -3px 0 0 0 #f33;
+        border-bottom: 2px dashed #262626;
+        background-color: #565656;
+    }
 }
