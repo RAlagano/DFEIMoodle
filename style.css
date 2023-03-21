@@ -563,4 +563,7 @@
     .bg-light {
         background-color: #4e4e4e!important;
     }
+    .path-mod-assign div.fileuploadsubmissiontime {
+        padding-left: 10px;
+    }
 }
