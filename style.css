@@ -566,4 +566,10 @@
     .path-mod-assign div.fileuploadsubmissiontime {
         padding-left: 10px;
     }
+    .courses .coursebox {
+        background-color: #565656!important;
+    }
+    .coursebox.panel {
+        border: 5px solid rgb(32 32 32);
+    }
 }
